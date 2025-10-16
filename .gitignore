@@ -1,0 +1,69 @@
+# =========================
+# Global
+# =========================
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+.dvenv
+.fvenv
+.env
+.env.local
+.env.docker
+.venv/
+env/
+venv/
+.idea/
+.vscode/
+.DS_Store
+.dockerignore
+# =========================
+# Backend (Django + Celery)
+# =========================
+/.dvenv/
+/migrations/**/ __pycache__/
+/staticfiles/
+/media/
+/celerybeat-schedule
+celerybeat.pid
+
+# SQLite database (nếu có)
+db.sqlite3
+
+# =========================
+# Frontend (ReactJS)
+# =========================
+node_modules/
+build/
+dist/
+.cache/
+coverage/
+*.tsbuildinfo
+
+# =========================
+# Websocket (FastAPI)
+# =========================
+# (thường dùng chung Python, nên đã có ở trên)
+# Nếu chạy Uvicorn/Gunicorn tạo file log hay pid
+*.pid
+*.db
+/.fvenv/
+
+# =========================
+# Test files / Temp files
+# =========================
+test_files/
+tmp/
+*.tmp
+
+# =========================
+# OS / Editor files
+# =========================
+*.swp
+*.swo
+*.bak
+*.orig
+Thumbs.db
