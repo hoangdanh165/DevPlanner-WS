@@ -46,8 +46,6 @@ coverage/
 # =========================
 # Websocket (FastAPI)
 # =========================
-# (thường dùng chung Python, nên đã có ở trên)
-# Nếu chạy Uvicorn/Gunicorn tạo file log hay pid
 *.pid
 *.db
 /.fvenv/
